@@ -10,18 +10,18 @@ export function Navbar({tab, setTab}){
       </div>
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
-          <a className={`navbar-item ${tab==='aboutMe' ? "is-selected": ""}}`} onClick={() =>{setTab("aboutMe")}}>
+          <button className={`navbar-item ${tab==='aboutMe' ? "is-selected": ""}}`} onClick={() =>{setTab("aboutMe")}}>
             About me
-          </a>
-          <a className={`navbar-item ${tab==='portfolio' ? "is-selected": ""}`} onClick={() =>{setTab("portfolio")}}>
+          </button>
+          <button className={`navbar-item ${tab==='portfolio' ? "is-selected": ""}`} onClick={() =>{setTab("portfolio")}}>
             Portfolio
-          </a>
-          <a className={`navbar-item ${tab==='contact' ? "is-selected": ""}`} onClick={() =>{setTab("contact")}}>
+          </button>
+          <button className={`navbar-item ${tab==='contact' ? "is-selected": ""}`} onClick={() =>{setTab("contact")}}>
             Contact
-          </a>
-          <a className="navbar-item" download={resume}>
+          </button>
+          <button className="navbar-item" download={resume}>
             Resume
-          </a>
+          </button>
         </div>
       </div>
     </nav>
