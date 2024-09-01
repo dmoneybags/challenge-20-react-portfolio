@@ -2,7 +2,7 @@ export function PortfolioProject({image, name, linkToGithub, linkToDeploy}){
     return (
         <div class="box m-3" style={{height: "350px"}}>
             <figure className="image is-4by3">
-                <img src={image} style={{ width: '100%' }} />
+                <img src={image} style={{ width: '100%' }} alt=""/>
             </figure>
             <p className="has-text-white m-2 is-size-3">{name}</p>
             <div className="columns">

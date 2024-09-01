@@ -4,9 +4,9 @@ export function Navbar({tab, setTab}){
     return (
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
-        <a className="navbar-item">
+        <button className="navbar-item">
           Daniel DeMoney
-        </a>
+        </button>
       </div>
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
